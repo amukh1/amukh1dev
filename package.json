@@ -1,0 +1,16 @@
+{
+  "name": "web-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://amukh1.github.io/amukh1dev",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
