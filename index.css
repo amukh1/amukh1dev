@@ -34,14 +34,14 @@ background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(133,135,135,1) 1
 
 
 .Amukh1 {
-   
+    transition: all 0.2s linear;
     color: rgba(99, 99, 99, 0.884)
 
 }
 
 .Amukh1:hover {
 
-
+    transition: all 0.2s linear;
     color:rgb(255, 251, 0)
 
 }
@@ -120,6 +120,13 @@ color: white
 
        .pe1 {
 
-color: white
-
+color: white;
+text-align: center;
+border-radius: 25px;
+    padding: 20px;
+    width: 5500px;
+    height: 75px; 
+    margin: 0px;
+    border: 2px solid #000000;
        }
+       
