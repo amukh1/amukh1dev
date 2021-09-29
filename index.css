@@ -118,7 +118,7 @@ color: white
        .navbar {
            display: flex;
 
-    position: sticky;
+    position: fixed;
         background-color: #69a1f5;
 
     padding: 20px;
