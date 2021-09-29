@@ -116,6 +116,8 @@ color: white
        }
 
        .navbar {
+           display: flex;
+
 position: sticky;
         background-color: #69a1f5;
 
