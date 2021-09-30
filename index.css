@@ -155,12 +155,13 @@ text-align: center;
   
   
   .btn:focus {
-    background: rgb(57, 112, 214);
+    background: rgb(250,250,250);
+    border-color: rgb(250,250,250);
   }
   
   .btn:active {
-    background: rgb(12, 42, 99);
-      
+    background: rgb(175,175,175);
+    border-color: rgb(175,175,175);
       
       
        }
