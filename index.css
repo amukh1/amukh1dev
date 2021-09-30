@@ -143,12 +143,11 @@ text-align: center;
 .btn {
     outline: none;
     display: block;
-    border: 0;
     font-size: 16px;
     line-height: 1;
     padding: 16px 30px;
     border-radius: 30px;
-    background: cornflowerblue;
+    background: rgb(255, 255, 255);
     color: aliceblue;
     cursor: pointer;
     transition: all 0.2s linear;
@@ -180,12 +179,13 @@ flex-direction: row-reverse;
 margin: 4px;
 position:relative;
 bottom: 3px;
-
+background: transparent;
+border: 2px solid #fff;
 }
 
 .contact {
     margin: 4px;
     position:relative;
     bottom: 3px;
-    
+    border: 0;
     }
