@@ -138,3 +138,31 @@ text-align: center;
     a {
            text-decoration: none; 
     }
+
+    
+.btn {
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: cornflowerblue;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin: 0px
+  }
+  
+  
+  .btn:focus {
+    background: rgb(57, 112, 214);
+  }
+  
+  .btn:active {
+    background: rgb(12, 42, 99);
+      
+      
+      
+       }
