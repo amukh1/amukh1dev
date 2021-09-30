@@ -148,7 +148,6 @@ text-align: center;
     padding: 16px 30px;
     border-radius: 30px;
     background: rgb(255, 255, 255);
-    color: aliceblue;
     cursor: pointer;
     transition: all 0.2s linear;
     margin: 0px
@@ -181,6 +180,7 @@ position:relative;
 bottom: 3px;
 background: transparent;
 border: 2px solid #fff;
+color: #fff;
 }
 
 .contact {
@@ -188,4 +188,5 @@ border: 2px solid #fff;
     position:relative;
     bottom: 3px;
     border: 0;
+    color: aliceblue
     }
