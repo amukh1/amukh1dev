@@ -166,3 +166,11 @@ text-align: center;
       
       
        }
+
+
+.NavBtns {
+    display: flex;
+flex-direction: row-reverse;
+
+
+}
