@@ -177,7 +177,7 @@ flex-direction: row-reverse;
 .signIn {
 margin: 4px;
 position:relative;
-bottom: 3px;
+bottom: 5px;
 background: transparent;
 border: 2px solid #fff;
 color: #fff;
@@ -186,7 +186,7 @@ color: #fff;
 .contact {
     margin: 4px;
     position:relative;
-    bottom: 3px;
+    bottom: 5px;
     border: 0;
     color: cornflowerblue;
     }
