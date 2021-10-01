@@ -8,3 +8,14 @@
 // {"method":"POST", 
 // "headers": {"content-type": "application/json"},
 // "body": JSON.stringify(msg)})
+const data = 'it worked'
+const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  };
+  const response = await fetch('/api', options);
+  const json = await response.json();
+  console.log(json);
