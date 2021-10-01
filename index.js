@@ -25,4 +25,15 @@
 //   const json = await response.json();
 //   console.log(json);
 
-console.log('hello world')
+// console.log('hello world')
+// const data = 'hello server, did you get this message?'
+// const options = {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify(data)
+// };
+// const response = await fetch('/api', options);
+// const json = await response.json();
+// console.log(json);
