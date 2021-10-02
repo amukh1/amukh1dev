@@ -10,6 +10,24 @@
     <title>Amukh1</title>
     <script  defer src="index.js"></script>
     <link rel="stylesheet" href="index.css">
+
+    <script>
+
+        // http://192.168.1.245:3000/api
+        
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'http://192.168.1.245:3000/api')
+        
+        xhr.onload = function() {
+            // console.log(xhr.response)
+            // console.log(JSON.parse(xhr.response).data[3])
+            console.log(xhr.response)
+        }
+        
+        xhr.send()
+        
+         </script> 
+         
 </head>
 <body>
     
