@@ -56,3 +56,30 @@ text-align: center;
           color:rgb(255, 251, 0)
         
         }
+
+.Sbtn {
+
+  outline: none;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 10px;
+  background: cornflowerblue;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin: 0px
+
+}
+
+.Sbtn:focus {
+  background: rgb(57, 112, 214);
+}
+
+.Sbtn:active {
+  background: rgb(12, 42, 99);
+    
+    
+    
+     }
