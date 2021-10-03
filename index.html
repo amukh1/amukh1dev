@@ -10,90 +10,66 @@
     <title>Amukh1</title>
     <script  defer src="index.js"></script>
     <link rel="stylesheet" href="index.css">
-
-    <script>
-
-        // http://192.168.1.245:3000/api
-        
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://192.168.1.245:3000/api')
-        
-        xhr.onload = function() {
-            // console.log(xhr.response)
-            // console.log(JSON.parse(xhr.response).data[3])
-            console.log(xhr.response)
-        }
-        
-        xhr.send()
-        
-         </script> 
-         
 </head>
 <body>
     
    <div class='nothead'> 
        
-    <div class=navbar>
-        <div class="NavContent">
-        
-            <a href="403signIn.html">  <button class="signIn">Sign In</button> </a>
-        
-       <a href="contact.html"> <button class="btn2 contact">Contact</button>    </a>
-      </div>
-    </div>
-    
-    
+  
+
     <div class="header">
-    <h1 class="hiim">Hi, I'm <span class="Amukh1">Amukh1.</span></h1>
-</div>
 
-<div class="nothead">
+        <h1>Hi. I'm <span class="Amukh1">Amukh1.</span></h1>
+        <p>I like programming, Im certified in <strong><span class="js">JavaScript</span></strong></p>
+        <p>Here's a chart on how many people visit this website since it was made! <strong>*Test Data*</strong></p>
+        
+        <canvas id="myChart" width="900" height="700"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Sept 26th', 'Sept 27th', 'Sept 29th', 'Oct 1rd', 'Oct 3rd', 'Oct 5th', 'Oct 7th'],
+                datasets: [{
+                    label: '# of Visitors',
+                    data: [12, 14, 8.7, 12, 16.5, 18, 16],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        </script>
+         
+        <p>You can view my <strong>JavaScript</strong> certification <a href="JSC.html">here</a></p>
+        <p>Or view my <a href="work.html">work</a></p>
+        <p><a href="contact.html">Contact</a> me?</p>
 
-    <!-- CHATAPP -->
-
-<div class="rec">
-
-<h3 class='recheader'>Chat App</h3>
-
-<p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
-
-   <div class="btndiv"><a href="http://137.184.108.105:9000/"> <button class="visitbtn">Visit</button></a></div>
-
-</div>
-
-
-        <!-- DISCORD BOTS -->
-
-<div class="rec">
-
-    <h3 class='recheader'>Discord Bots</h3>
-    
-    <p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
-    
-       <div class="btndiv"> <button class="visitbtn">Visit</button></div>
-    
     </div>
-
-     <!-- RPA -->
-
-<div class="rec">
-
-    <h3 class='recheader'>RPA</h3>
-    
-    <p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
-    
-       <div class="btndiv"> <button class="visitbtn">Visit</button></div>
-    
-    </div>
-</div>
-<div class="footer">
-
-<p class="footertext">Amukh1 made this.</p>
-
-</div>
-    <!--- js --->
-    
-    <!--- js --->
 </body>
 </html>
 

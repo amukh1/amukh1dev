@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Amukh1 Portfolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Amukh1">
+    <title>Amukh1</title>
+    <script  defer src="index.js"></script>
+    <link rel="stylesheet" href="work.css">
+
+    <script>
+
+        // http://192.168.1.245:3000/api
+        
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'http://192.168.1.245:3000/api')
+        
+        xhr.onload = function() {
+            // console.log(xhr.response)
+            // console.log(JSON.parse(xhr.response).data[3])
+            console.log(xhr.response)
+        }
+        
+        xhr.send()
+        
+         </script> 
+         
+</head>
+<body>
+    
+   <div class='nothead'> 
+       
+    
+    
+    
+    <div class="header">
+    <h1 class="hiim">Hi, this is my <span class="Amukh1">work</span></h1>
+</div>
+
+<div class="nothead">
+
+    <!-- CHATAPP -->
+
+<div class="rec">
+
+<h3 class='recheader'>Chat App</h3>
+
+<p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
+
+   <div class="btndiv"><a href="http://137.184.108.105:9000/"> <button class="visitbtn">Visit</button></a></div>
+
+</div>
+
+
+        <!-- DISCORD BOTS -->
+
+<div class="rec">
+
+    <h3 class='recheader'>Discord Bots</h3>
+    
+    <p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
+    
+       <div class="btndiv"> <button class="visitbtn">Visit</button></div>
+    
+    </div>
+
+     <!-- RPA -->
+
+<div class="rec">
+
+    <h3 class='recheader'>RPA</h3>
+    
+    <p class='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit minus, qui ad quidem atque deleniti dolorum vero molestias dolores, nemo itaque perspiciatis, ex pariatur magni molestiae explicabo tempore non. Nemo!</p>
+    
+       <div class="btndiv"> <button class="visitbtn">Visit</button></div>
+    
+    </div>
+</div>
+<div class="footer">
+
+<p class="footertext">Amukh1 made this.</p>
+
+</div>
+    <!--- js --->
+    
+    <!--- js --->
+</body>
+</html>
+
+

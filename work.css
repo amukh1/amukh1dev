@@ -1,0 +1,133 @@
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(133,135,135,1) 100%); 
+  margin: 0px;
+  
+  }
+  
+  .btndiv {
+   
+    display: flex;
+   
+    justify-content: center;
+  align-items: center;
+  }
+  
+  
+  .nothead {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .header {
+  
+    text-align: center;
+  
+    margin: 40px;
+  
+  }
+  
+  
+  .Amukh1 {
+    transition: all 0.2s linear;
+    color: rgba(99, 99, 99, 0.884)
+  
+  }
+  
+  .Amukh1:hover {
+  
+    transition: all 0.2s linear;
+    color:rgb(255, 251, 0)
+  
+  }
+  
+  .rec {
+    
+    background-color: rgb(66, 65, 65);
+    border-radius: 25px;
+    padding: 20px;
+    width: 550px;
+    height: 150px; 
+    margin: 40px;
+    border: 2px solid #000000;
+  }
+  
+  .recheader {
+  
+    color: white
+  
+  }
+  
+  .p1 {
+  
+  color: white
+  
+  }
+  
+  .rec:hover {
+  
+    color:rgb(49, 49, 49)
+  
+  }
+  
+  .footer {
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .footertext {
+  
+    color: white;
+    margin: 0px;
+  }
+  
+  .visitbtn {
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: cornflowerblue;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin: 0px
+  }
+  
+  
+  .visitbtn:focus {
+    background: rgb(57, 112, 214);
+  }
+  
+  .visitbtn:active {
+    background: rgb(12, 42, 99);
+      
+      
+      
+       }
+  
+       
+  
+       .pe1 {
+  
+  color: white;
+  text-align: center;
+  
+       }
+       
+    a {
+           text-decoration: none; 
+    }
+  
+  
+
+  
+  
