@@ -90,3 +90,9 @@ text-align: center;
     
     
      }
+
+     .nav {
+      background: darkgray;
+      width: 1000px;
+      height: 20px;
+     }
