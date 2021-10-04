@@ -49,6 +49,7 @@ align-items: center;
 .rec {
   
   background-color: rgb(43, 43, 43);
+  background: rgb(43, 43, 43);
   border-radius: 10px;
   padding: 20px;
   width: 550px;
@@ -62,6 +63,8 @@ align-items: center;
 
 .rec:hover {
   top: -10px;
+  background-color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
 
 .recheader {
@@ -76,11 +79,7 @@ color: white
 
 }
 
-.rec:hover {
 
-  color:rgb(49, 49, 49)
-
-}
 
 .footer {
   text-align: center;
