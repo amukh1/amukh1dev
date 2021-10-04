@@ -112,9 +112,7 @@ color: white
   background: rgb(57, 112, 214);
 }
 
-.visitbtn:focus {
-  background: rgb(57, 112, 214);
-}
+
 
 .visitbtn:active {
   background: rgb(12, 42, 99);

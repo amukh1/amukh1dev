@@ -84,11 +84,6 @@ text-align: center;
   
 }
 
-.Sbtn:focus {
-  background: rgb(57, 112, 214);
-  top: -10px;
-}
-
 .Sbtn:active {
   background: rgb(12, 42, 99);
     
