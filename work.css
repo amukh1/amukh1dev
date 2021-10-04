@@ -108,6 +108,9 @@ color: white
   margin: 0px
 }
 
+.visitbtn:hover {
+  background: rgb(57, 112, 214);
+}
 
 .visitbtn:focus {
   background: rgb(57, 112, 214);

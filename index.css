@@ -69,12 +69,24 @@ text-align: center;
   color: aliceblue;
   cursor: pointer;
   transition: all 0.2s linear;
-  margin: 0px
+  margin: 0px;
+  position: relative;
+  transition: top ease 0.5s;
+  top: 0px;
 
+}
+
+
+.Sbtn:hover {
+
+  background: rgb(57, 112, 214);
+  top: -10px;
+  
 }
 
 .Sbtn:focus {
   background: rgb(57, 112, 214);
+  top: -10px;
 }
 
 .Sbtn:active {
