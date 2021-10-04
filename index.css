@@ -69,7 +69,6 @@ text-align: center;
   background: cornflowerblue;
   color: aliceblue;
   cursor: pointer;
-  transition: all 0.2s linear;
   margin: 0px;
   position: relative;
   transition: top ease 0.5s;
