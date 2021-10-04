@@ -54,6 +54,14 @@ align-items: center;
   width: 550px;
   height: 150px; 
   margin: 40px;
+  position: relative;
+  transition: top ease 0.5s;
+  top: 0px;
+}
+
+
+.rec:hover {
+  top: -10px;
 }
 
 .recheader {
