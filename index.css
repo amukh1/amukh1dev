@@ -92,7 +92,7 @@ text-align: center;
     
      }
 
-     .nav {
+     /* .nav {
       background: rgb(194, 194, 194);
       width: 1700px;
       height: 35px;
@@ -102,4 +102,4 @@ text-align: center;
      .navlinks {
       display: flex;
       flex-direction: row-reverse;
-     }
+     } */
