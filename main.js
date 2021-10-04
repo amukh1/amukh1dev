@@ -14,4 +14,6 @@ function Survey() {
     "headers": {"content-type": "application/json"},
     "body": JSON.stringify(msg)})
 
-}};
+    }
+alert('Thank you for taking the survey!')
+};
