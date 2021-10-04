@@ -49,13 +49,12 @@ align-items: center;
 
 .rec {
   
-  background-color: rgb(66, 65, 65);
-  border-radius: 25px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 15px;
   padding: 20px;
   width: 550px;
   height: 150px; 
   margin: 40px;
-  border: 2px solid #000000;
 }
 
 .recheader {
