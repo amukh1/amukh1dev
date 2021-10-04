@@ -93,6 +93,12 @@ text-align: center;
 
      .nav {
       background: darkgray;
-      width: 1000px;
-      height: 20px;
+      width: 1700px;
+      height: 35px;
+      margin: 0px;
+     }
+
+     .navlinks {
+      display: flex;
+      flex-direction: row-reverse;
      }
