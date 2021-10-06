@@ -17,3 +17,4 @@ function Survey() {
     }
 alert('Thank you for taking the survey!')
 };
+
