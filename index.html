@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="content">
     <!-- <div class="nav">
 <div class="navlinks">
 <h3>Work</h3>
@@ -82,7 +83,16 @@
     </div>
     <!--- JS --->
     <script  defer src="main.js"></script>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".content").fadeOut("slow");
+          });
+      </script>
     <!--- JS --->
+    </div>
 </body>
 </html>
 
