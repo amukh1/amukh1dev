@@ -123,3 +123,9 @@ text-align: center;
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+.pfp {
+
+  border-radius: 25px;
+
+}
