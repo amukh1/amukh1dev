@@ -212,8 +212,8 @@ body {
    display: flex;
    /* justify-content: center; */
    flex-direction: column;
-   top: 300px;
-   left: 450px;
+   top: 650px;
+   left: 250px;
    filter: blur(8px);
    -webkit-filter: blur(8px);
    }
@@ -237,8 +237,8 @@ body {
    display: flex;
    /* justify-content: center; */
    flex-direction: column;
-   top: 290px;
-   left: 450px;
+   top: 640px;
+   left: 250px;
    z-index: 100;
    filter: blur(0px);
    -webkit-filter: blur(0px);
