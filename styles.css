@@ -38,7 +38,7 @@ body {
     overflow: hidden;
     transition: all 1s;
        width:800px;
-       height: 838px;
+       height: 330px;
        background: rgba( 255, 255, 255, 0.25 );
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    /* backdrop-filter: blur( 4px ); */
@@ -84,30 +84,45 @@ body {
        display: block;
    }
 
-   .glass2 {
-    overflow: hidden;
-    transition: 1s;
-    width:350px;
-    height: 400px;
-       background: rgba( 255, 255, 255, 0.25 );
-   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-   /* backdrop-filter: blur( 4px ); */
-   /* -webkit-backdrop-filter: blur( 4px ); */
-   /* filter: blur(4px); */
-   /* -webkit-filter: blur(4px); */
+
+.glass2 {
+        overflow: hidden;
+        transition: 1s;
+        width:350px;
+        height: 400px;
+           background: rgba( 255, 255, 255, 0.25 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       /* backdrop-filter: blur( 4px ); */
+       /* -webkit-backdrop-filter: blur( 4px ); */
+       /* filter: blur(4px); */
+       /* -webkit-filter: blur(4px); */
+       backdrop-filter: blur(5px);
+       /* flex-direction: column; */
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       display: flex;
+       /* justify-content: center; */
+       flex-direction: column;
+       position: absolute;
+       right: 97px;
+       top: 145px;
+       filter: blur(8px);
+       -webkit-filter: blur(8px);
+}
+
+  /* .glass2 {
    backdrop-filter: blur(5px);
-   /* flex-direction: column; */
+
    border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   display: flex;
-   /* justify-content: center; */
+
    flex-direction: column;
    position: absolute;
    right: 97px;
    top: 145px;
    filter: blur(8px);
    -webkit-filter: blur(8px);
-   }
+   } */
 
    .glass2:hover {
     overflow: hidden;
@@ -244,6 +259,57 @@ body {
    -webkit-filter: blur(0px);
    }
 
+   .glass5 {
+    position: absolute;
+    overflow: hidden;
+    transition: all 1s;
+       width:360px;
+       height: 410px;
+       background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   /* backdrop-filter: blur( 4px ); */
+   /* -webkit-backdrop-filter: blur( 4px ); */
+   /* filter: blur(4px); */
+   /* -webkit-filter: blur(4px); */
+   backdrop-filter: blur(5px);
+   /* flex-direction: column; */
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   top: 750px;
+   left: 880px;
+   filter: blur(8px);
+   -webkit-filter: blur(8px);
+   }
+
+   .glass5:hover {
+    position: absolute;
+    overflow: hidden;
+    transition: all 1s;
+       width:360px;
+       height: 400px;
+       background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   /* backdrop-filter: blur( 4px ); */
+   /* -webkit-backdrop-filter: blur( 4px ); */
+   /* filter: blur(4px); */
+   /* -webkit-filter: blur(4px); */
+   backdrop-filter: blur(5px);
+   /* flex-direction: column; */
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   top: 740px;
+   left: 880px;
+   z-index: 100;
+   filter: blur(0px);
+   -webkit-filter: blur(0px);
+   }
+
 
    .apipara {
        display: block;
@@ -258,11 +324,6 @@ body {
    .js {
     color: rgb(59, 59, 56);
 }
-   
-   @keyframes float {
-       0%   {}
-       100% {background-color: green;}
-     }
    
      .discordinv {
          width: 80px;
@@ -295,3 +356,95 @@ body {
    .glass:hover {
        top: 155px;
    }
+
+   @keyframes float2 {
+    0%   {    overflow: hidden;
+        transition: 1s;
+        width:350px;
+        height: 400px;
+           background: rgba( 255, 255, 255, 0.25 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       /* backdrop-filter: blur( 4px ); */
+       /* -webkit-backdrop-filter: blur( 4px ); */
+       /* filter: blur(4px); */
+       /* -webkit-filter: blur(4px); */
+       backdrop-filter: blur(5px);
+       /* flex-direction: column; */
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       display: flex;
+       /* justify-content: center; */
+       flex-direction: column;
+       position: absolute;
+       right: 97px;
+       top: 145px;
+       filter: blur(8px);
+       -webkit-filter: blur(8px);}
+    50%  {    overflow: hidden;
+        transition: 1s;
+        width:350px;
+        height: 400px;
+           background: rgba( 255, 255, 255, 0.25 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       /* backdrop-filter: blur( 4px ); */
+       /* -webkit-backdrop-filter: blur( 4px ); */
+       /* filter: blur(4px); */
+       /* -webkit-filter: blur(4px); */
+       backdrop-filter: blur(5px);
+       /* flex-direction: column; */
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       display: flex;
+       /* justify-content: center; */
+       flex-direction: column;
+       position: absolute;
+       right: 97px;
+       top: 135px;
+       filter: blur(8px);
+       -webkit-filter: blur(8px);}
+    100% {    overflow: hidden;
+        transition: 1s;
+        width:350px;
+        height: 400px;
+           background: rgba( 255, 255, 255, 0.25 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       /* backdrop-filter: blur( 4px ); */
+       /* -webkit-backdrop-filter: blur( 4px ); */
+       /* filter: blur(4px); */
+       /* -webkit-filter: blur(4px); */
+       backdrop-filter: blur(5px);
+       /* flex-direction: column; */
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       display: flex;
+       /* justify-content: center; */
+       flex-direction: column;
+       position: absolute;
+       right: 97px;
+       top: 145px;
+       filter: blur(8px);
+       -webkit-filter: blur(8px);}
+  }
+
+
+       /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+     border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
