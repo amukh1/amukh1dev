@@ -58,6 +58,7 @@ align-items: center;
   position: relative;
   transition: top ease 0.5s;
   top: 0px;
+  transform: perspective(600px) rotateY(0deg);
 }
 
 
