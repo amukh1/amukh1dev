@@ -28,12 +28,10 @@ xhttp.onreadystatechange = function() {
 let data = JSON.parse(xhttp.responseText)
       console.log(data)
 console.log(data.login)
-ghuser = data.login
-ghrepos = data.public_repos
+document.getElementById("ghuser").innerHTML = data.login
+document.getElementById("ghrepos").innerHTML = data.public_repos
     }
 };
 xhttp.open("GET", "https://api.github.com/users/amukh1", true);
 xhttp.send();
 
-document.getElementById("ghuser").innerHTML = ghuser
-document.getElementById("ghrepos").innerHTML = ghrepos
