@@ -160,3 +160,7 @@ text-align: center;
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+.footertext {
+  background-color: black;
+}
