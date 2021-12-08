@@ -1,3 +1,23 @@
+let ghuser
+let ghrepos
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       // Typical action to be performed when the document is ready:
+let data = JSON.parse(xhttp.responseText)
+      console.log(data)
+console.log(data.login)
+ghuser = data.login
+ghrepos = data.public_repos
+    }
+};
+xhttp.open("GET", "https://api.github.com/users/amukh1", true);
+xhttp.send();
+
+document.getElementById("ghuser").innerHTML = ghuser
+document.getElementById("ghrepos").innerHTML = ghrepos
+
 function Survey() {
 
     var Survey = prompt('Do you think the website looks nice?', ':>')
