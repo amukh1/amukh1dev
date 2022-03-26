@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    background-color: rgb(0, 89, 255);
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+    display: flex;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.xxx {
+    background-color: rgb(87, 146, 255);
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    height: 100vh;
+    width: 25%;
+    text-align: center;
+}
+
+.eee {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    height: 100vh;
+    width: 75%;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.headx {
+    font-size: 5rem;
+    margin: 0px;
+}
+
+.skills {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(87, 146, 255);
+    /* opacity: 50%; */
+    border-radius: 25px;
+    margin: 10px;
+    padding: 25px;
+    width: min-content;
+margin-left: 100px;
+color: rgb(255, 255, 255);
+
+}
+
+.skills:hover {
+   
+    top: -10px;
+}
+
+.eeeb {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(87, 146, 255);
+    /* opacity: 50%; */
+    border-radius: 25px;
+    margin: 10px;
+    padding: 25px;
+    width: min-content;
+margin-left: 100px;
+color: rgb(255, 255, 255);
+padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0px;
+}
+
+.projects:hover {
+   
+    top: -10px;
+}
+
+.skillhead {
+    font-size: 1.5rem;
+width: min-content;
+}
+
+.skilled {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill {
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    padding: 5px;
+    border-radius: 5%;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.headb {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.xxx {
+    display: flex;
+
+}
+
+.move {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.move:hover {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.eg {
+    margin-left: 70px;
+}

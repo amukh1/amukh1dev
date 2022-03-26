@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Amukh1 Portfolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Amukh1">
+    <title>Amukh1</title>
+    <link rel="icon" href="./images/sleepy.png">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    </div>
+    <div class="content">
+    <!-- <div class="nav">
+<div class="navlinks">
+<h3>Work</h3>
+</div>
+    </div> -->
+   <div class='nothead'> 
+       
+   
+    <div class="header">
+
+        
+        <img class="pfp" src="frog.jpg" alt="frogpfp">
+
+        <h1>Hi. I'm <span class="Amukh1">Amukh1.</span></h1>
+        <p>I like programming, Im certified in <strong><span class="js">JavaScript</span></strong></p>
+        <p>Github User: <span id="ghuser"></span> </p>
+        <p>Public Repos: <span id="ghrepos"></span> </p>
+        <p>Here's a chart on how many people have visited this website since it was made! <strong>*Test Data*</strong></p>
+        
+        <canvas id="myChart" width="900" height="700"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Sept 26th', 'Sept 27th', 'Sept 29th', 'Oct 1st', 'Oct 3rd', 'Oct 5th', 'Oct 7th'],
+                datasets: [{
+                    label: '# of Visitors',
+                    data: [12, 14, 8.7, 12, 16.5, 18, 16],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        </script>
+         
+        <p>You can view my <strong>JavaScript</strong> certification <a href="JSC.html">here</a></p>
+        <p>Or view my <a href="work.html">work</a></p>
+        <p><a href="contact.html">Contact</a> me?</p>
+        <p>Check out the <a href="https://amukh1.dev">Main Version?</a></p>
+
+        <p>Also, if you wouldnt mind, please take this survey</p>
+        <br>
+        <button onClick="Survey()" class="Sbtn">Take Survey</button>
+
+    </div>
+    <!--- JS --->
+    <script  defer src="main.js"></script>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+      </script>
+    
+    
+    </div>
+
+<!--- JS --->
+
+
+
+</body>
+</html>
+
+
