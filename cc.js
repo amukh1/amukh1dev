@@ -1,3 +1,8 @@
+let options = ['Amukh1.', 'Aditya.']
+
+document.getElementById('n').innerHTML = options[Math.floor(Math.random() * 2)]
+
+
 document.getElementById('n').onmouseenter = function() {
     console.log('mouse over name')
     let ii = document.getElementById('n').innerHTML
