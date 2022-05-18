@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+    background-color: #A0AECD;
+    font-family: 'Koulen', cursive;
+}
+
+.header {
+    font-size: 4rem;
+    color: #000000;
+    text-align: center;
+}
+
+.n:hover {
+     /* Add the blur effect*/
+ filter: blur(8px);
+ -webkit-filter: blur(8px); 
+ /* font-size: 40px; */
+ /* color: transparent;
+ text-shadow: 0 0 8px #000; */
+ color: yellow;
+ cursor: pointer;
+}
+
+.n {
+    transition: all 0.5s ease;
+    color: yellow;
+}
+
+.intro {
+    font-size: 2rem;
+}
+
+.pi {
+    font-size: 3rem;
+    margin-top: 4%;
+}
+/* 
+.projects {
+    background-color: #76829c;
+    border-radius: 25px;
+    /* height: max-content; */
+    /* padding: 25px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap:wrap; */
+  
+/* } */
+
+/* .project {
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #000000;
+    width: 20%;
+    color: white;
+    margin: 25px;
+} */
+
+/* .project:hover {
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    width: 20%;
+    color: black;
+    cursor: pointer;
+} */ 
+
+
+/* .pcc {
+    height: 50%;
+    width: 99%;
+} */
+
+.btndiv {
+ 
+    display: flex;
+   
+    justify-content: center;
+  align-items: center;
+  }
+  
+  
+  .nothead {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  }
+
+
+  .rec {
+  
+  background-color: rgb(43, 43, 43);
+  background: rgb(43, 43, 43);
+  border-radius: 10px;
+  padding: 20px;
+  width: fit-content;
+  height: fit-content; 
+  margin: 40px;
+  position: relative;
+  transition: top ease 0.5s;
+  top: 0px;
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+.rec:hover {
+  transition: all 0.5s ease;
+  top: -10px;
+  background-color: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0);
+  transform: perspective(600px) rotateY(45deg); */
+}
+
+.recheader {
+
+  color: white
+
+}
+
+.p1 {
+
+color: white
+
+}
+
+
+
+.footer {
+  text-align: center;
+  margin: 0px;
+}
+
+.footertext {
+
+  color: white;
+  margin: 0px;
+}
+
+.visitbtn {
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: cornflowerblue;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin: 0px
+}
+
+.visitbtn:hover {
+  background: rgb(57, 112, 214);
+}
+
+
+
+.visitbtn:active {
+  background: rgb(12, 42, 99);
+    
+    
+    
+     }
+
+     
+
+     .pe1 {
+
+color: white;
+text-align: center;
+
+     }
+     
+  a {
+         text-decoration: none; 
+  }
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+   border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.footertext {
+  background-color: black
+}
