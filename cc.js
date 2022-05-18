@@ -1,8 +1,8 @@
 let options = ['Amukh1.', 'Aditya.']
 
-document.getElementById('n').innerHTML = options[Math.floor(Math.random() * phrases.length)]
+document.getElementById('n').innerHTML = options[Math.floor(Math.random() * options.length)]
 
-let phrases = ['Amukh1.', 'Aditya.']
+let phrases = ['eternal', 'parking' , 'split' ,'penetrate' ,'color' ,'colleague' ,'hide' ,'fuel' ,'challenge' ,'incongruous' ,'suffering' ,'cater' ,'help' ,'nonsense' ,'transition' ,'secular' ,'basis' ,'harvest' ,'headline' ,'marathon' ,'machinery' ,'area' ,'charter' ,'appoint' ,'glove' ,'volunteer' ,'tray' ,'slogan' ,'unlawful' ,'killer' ,'appearance' ,'pierce' ,'adviser' ,'physical' ,'mean' ,'slippery' ,'cry' ,'leaflet' ,'user' ,]
 
 document.getElementById('rph').innerHTML = phrases[Math.floor(Math.random() * phrases.length)]
 
